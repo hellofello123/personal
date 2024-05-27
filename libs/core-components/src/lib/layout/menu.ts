@@ -19,4 +19,8 @@ export const menu = [
     label: 'Contact',
     path: '/contact',
   },
+   {
+    label: 'Certificates',
+    path: '/certificates',
+  },
 ];

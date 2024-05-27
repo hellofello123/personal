@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import { Alert, Form } from 'reactstrap';
 
 const ContactPage = () => {
-  const [state, handleSubmit] = useForm('xeqbqqwj');
+  const [state, handleSubmit] = useForm('xwkgadjr');
   const [displayBanner, setDisplayBanner] = useState(false);
 
   useEffect(() => {
@@ -69,7 +69,7 @@ const ContactPage = () => {
                 <li>
                   <a
                     className="shadow-box"
-                    href="https://github.com/msanvarov"
+                    href="https://github.com/abhishekpanthee"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -79,7 +79,7 @@ const ContactPage = () => {
                 <li>
                   <a
                     className="shadow-box"
-                    href="https://linkedin.com/in/sal-anvarov"
+                    href="https://www.linkedin.com/in/abhishek-panthee-4b00631a7"
                     target="_blank"
                     rel="noreferrer noopener"
                   >

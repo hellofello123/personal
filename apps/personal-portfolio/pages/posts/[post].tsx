@@ -1,7 +1,7 @@
 import { BlogNavbar, Layout } from '@msanvarov/core-components';
 import { Post } from '@msanvarov/store';
-import { DiscussionEmbed } from 'disqus-react';
 import fs from 'fs';
+import { DiscussionEmbed } from 'disqus-react';
 import matter from 'gray-matter';
 import moment from 'moment';
 import { GetStaticPaths, GetStaticProps } from 'next';
@@ -11,7 +11,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import path from 'path';
 import remarkGfm from 'remark-gfm';
+import dynamic from 'next/dynamic';
 import { POSTS_PATH, postFilePaths } from '../../utils/mdx.utils';
+
+// Dynamically import YouTubeVideo component
+const YouTubeVideo = dynamic(() => import('../../../../libs/core-components/src/lib/YouTubeVideo'));
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = postFilePaths
@@ -69,7 +73,9 @@ export const getStaticProps: GetStaticProps<PostPageProps> = async ({
 };
 
 // List of custom components
-const components = {};
+const components = {
+  YouTubeVideo,
+};
 
 type PostPageProps = {
   content: MDXRemoteSerializeResult<
@@ -101,7 +107,7 @@ const PostPage = ({ content, frontMatter, posts }: PostPageProps) => {
         <>
           <meta name="description" content={frontMatter.description} />
           <meta name="keywords" content={frontMatter.category} />
-          <meta name="author" content={'Sal Anvarov'} />
+          <meta name="author" content={'Abhishek Panthee'} />
           <meta property="og:title" content={frontMatter.title} />
           <meta property="og:description" content={frontMatter.description} />
           <meta
@@ -136,7 +142,7 @@ const PostPage = ({ content, frontMatter, posts }: PostPageProps) => {
                   </Link>
                 </div>
                 <DiscussionEmbed
-                  shortname="sal-anvarov"
+                  shortname="abhishekpanthee-com-np"
                   config={{
                     url,
                     identifier: frontMatter.uid,

@@ -9,7 +9,7 @@ export const trackingEnabled =
 
 export const registerHotjar = () => {
   if (trackingEnabled) {
-    const siteId = parseInt(process.env.HOTJAR_WEBSITE_UID ?? '3629844', 10);
+    const siteId = parseInt(process.env.HOTJAR_WEBSITE_UID ?? '4952316', 10);
     const hotjarVersion = parseInt(process.env.HOTJAR_VERSION ?? '6', 10);
 
     Hotjar.init(siteId, hotjarVersion);
@@ -23,7 +23,7 @@ export const registerGTM = () => {
         {/* Google Tag Manager */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${
-            process.env.GOOGLE_TAG_MANAGER_UID ?? 'AW-779764156'
+            process.env.GOOGLE_TAG_MANAGER_UID ?? 'GTM-KDHSQ6Q5'
           }`}
         />
         <Script id="google-analytics">
@@ -33,7 +33,7 @@ export const registerGTM = () => {
           gtag('js', new Date());
   
           gtag('config', '${
-            process.env.GOOGLE_TAG_MANAGER_UID ?? 'AW-779764156'
+            process.env.GOOGLE_TAG_MANAGER_UID ?? 'GTM-KDHSQ6Q5'
           }');
         `}
         </Script>
@@ -56,7 +56,7 @@ export const registerMicrosoftClarity = () => {
                 t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
               })(window, document, "clarity", "script", "${
-                process.env.MICROSOFT_CLARITY_UID ?? 'inxvkei7ob'
+                process.env.MICROSOFT_CLARITY_UID ?? 'lzex5pi352'
               }");
             `,
           }}
@@ -79,7 +79,7 @@ export const registerDebugBearRUM = () => {
         {/* RUM for DebugBear */}
         <script
           src={`https://cdn.debugbear.com/${
-            process.env.DEBUGBEAR_RUM_UID ?? 'H50JpacVHAon'
+            process.env.DEBUGBEAR_RUM_UID ?? 'H50JpacVHAoN'
           }.js`}
           async
         ></script>

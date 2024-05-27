@@ -4,82 +4,74 @@
     "heading": null,
     "entries": [
       {
-        "icon": "iconoir-figma",
-        "text": "Prototyping",
+        "icon": "iconoir-terminal",
+        "text": "Bash Scripting",
         "topics": [
-          "Wireframing",
-          "High-Fidelity Prototyping",
-          "Consulting & Strategy",
-          "Comprehensive Documentation"
+          "Efficient Workflow Automation",
+          "Task Streamlining",
+          "Scripting Solutions"
         ]
       },
       {
-        "icon": "iconoir-input-output",
-        "text": "System Design",
+        "icon": "iconoir-adobe-photoshop",
+        "text": "Photoshop Design",
         "topics": [
-          "Architectural Planning",
-          "Data Modeling",
-          "API Design and Integration",
-          "Documentation and Training"
+          "Web Interface Design",
+          "Marketing Materials",
+          "Branding Assets"
         ]
       },
       {
-        "icon": "iconoir-design-pencil",
-        "text": "DevOps",
-        "topics": [
-          "Continuous Integration and Deployment (CI/CD)",
-          "Containerization and Orchestration",
-          "Disaster Recovery",
-          "Training and Consultation"
-        ]
-      },
-      {
-        "icon": "iconoir-code",
-        "text": "Development",
+        "icon": "iconoir-terminal-tag",
+        "text": "Python Development",
         "topics": [
           "Web Development",
-          "Mobile App Development",
-          "API Development and Integration",
-          "Database Design and Management"
+          "Data Analysis",
+          "Automation"
+        ]
+      },
+      {
+        "icon": "iconoir-pc-warning",
+        "text": "Secure Networking & Computing",
+        "topics": [
+          "Network Security",
+          "Encryption",
+          "Secure Protocols"
         ]
       }
     ]
   },
   "offerings": [
     {
-      "title": "Prototyping",
+      "title": "Bash Scripting",
       "description": [
-        "- <b>Wireframing</b>: Creating ui mockups with foundational elements to grasp the business requirements.",
-        "- <b>High-Fidelity Prototyping</b>: High-fidelity prototypes are produced, featuring rich detail and mock data.",
-        "- <b>Consulting & Strategy</b>: Drawing upon years of professional experience, expert opinion on the best UI/UX practices is offered, aimed at providing a competitive edge.",
-        "- <b>Comprehensive Documentation</b>: Detailed guides and documentation are provided to facilitate an easy transition from the prototype to the final product."
+        "- <b>Efficient Workflow Automation</b>: Creating automated workflows to streamline tasks and processes for enhanced efficiency.",
+        "- <b>Task Streamlining</b>: Simplifying complex tasks through scripting solutions, reducing manual effort and errors.",
+        "- <b>Scripting Solutions</b>: Providing custom Bash scripts tailored to specific needs for optimal system management."
       ]
     },
     {
-      "title": "System Design",
+      "title": "Photoshop Design",
       "description": [
-        "- <b>Architectural Planning</b>: Initial consultations focus on outlining the system architecture that best serves the applications goals and constraints.",
-        "- <b>Data Modeling</b>: A robust data model is constructed to aid the system's goals, taking into account both present needs and potential future scalability.",
-        "- <b>API Design and Integration</b>: Comprehensive API design and integration services are provided to ensure smooth communication between different system components or third-party services.",
-        "- <b>Documentation and Training</b>: Detailed documentation is provided for each component and process in the system."
+        "- <b>Web Interface Design</b>: Crafting visually appealing and user-friendly web interfaces using Photoshop.",
+        "- <b>Marketing Materials</b>: Designing eye-catching marketing materials such as banners, flyers, and brochures.",
+        "- <b>Branding Assets</b>: Creating cohesive branding assets including logos, icons, and visual identities."
       ]
     },
     {
-      "title": "DevOps",
+      "title": "Python Development",
       "description": [
-        "- <b>Continuous Integration and Deployment (CI/CD)</b>: Implementing a seamless pipeline for code integration and deployment, enabling faster release cycles and immediate feedback.",
-        "- <b>Containerization and Orchestration</b>: Deploying containerization technologies such as Docker and orchestration tools like Kubernetes to manage microservices efficiently.",
-        "- <b>Disaster Recovery</b>: Planning and implementing disaster recovery strategies that ensure minimal downtime and data loss in case of any failure or catastrophic event.",
-        "- <b>Training and Consultation</b>: Providing comprehensive training programs and consultation services to upskill the internal team, enabling them to manage the DevOps lifecycle more efficiently."
+        "- <b>Web Development</b>: Developing robust web applications and websites using Python frameworks like Django and Flask.",
+        "- <b>Data Analysis</b>: Utilizing Python libraries such as Pandas and NumPy for in-depth data analysis and visualization.",
+        "- <b>Automation</b>: Writing Python scripts to automate repetitive tasks and processes, increasing productivity and accuracy."
       ]
     },
     {
-      "title": "Development",
+      "title": "Secure Networking & Computing",
       "description": [
-        "- <b>Web Development</b>: Crafting responsive and dynamic websites or web applications, using a combination of front-end and back-end technologies, to meet various online business needs.",
-        "- <b>Mobile App Development</b>: Creating native and cross-platform mobile applications that offer seamless user experiences across iOS Android and other mobile platforms.",
-        "- <b>API Development and Integration</b>: Building and integrating APIs to enable seamless communication between different software components, be it internal systems or third-party services.",
-        "- <b>Database Design and Management</b>: Designing efficient database schemas and offering database management services that ensure high performance, security and scalability."
+        "- <b>Network Security</b>: Implementing secure networking practices to protect against unauthorized access and cyber threats.",
+        "- <b>Encryption</b>: Utilizing encryption algorithms to safeguard sensitive data during transmission and storage.",
+        "- <b>Secure Protocols</b>: Developing and implementing secure communication protocols to ensure data integrity and confidentiality."
       ]
     }
   ],
@@ -93,11 +85,11 @@
     },
     "profiles": [
       {
-        "link": "https://github.com/msanvarov",
+        "link": "https://github.com/abhishekpanthee",
         "icon": "iconoir-github"
       },
       {
-        "link": "https://linkedin.com/in/sal-anvarov",
+        "link": "https://www.linkedin.com/in/abhishek-panthee-4b00631a7/",
         "icon": "iconoir-linkedin"
       }
     ]
@@ -112,7 +104,7 @@
   },
   "credentials": {
     "heading": "Qualifications",
-    "caption": "A little on Sal",
+    "caption": "A little on Abhishek",
     "media": "/assets/signature.png",
     "button": {
       "link": "/credentials",

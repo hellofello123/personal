@@ -263,7 +263,7 @@ const LandingPage = () => {
             </div>
             <div className="col-md-6" data-aos="zoom-in">
               <div className="about-contact-box info-box shadow-box">
-                <Link className="overlay-link" href="/contact" />
+                <Link className="overlay-link" href="/Resume" />
                 <img src="/assets/bg1.png" alt="BG" className="bg-img" />
                 <img
                   src="/assets/icons/icon2.png"

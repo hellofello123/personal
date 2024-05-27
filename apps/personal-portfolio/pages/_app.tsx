@@ -2,6 +2,7 @@ import { Preloader } from '@msanvarov/core-components';
 import { persistor, store } from '@msanvarov/store';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { AnimatePresence } from 'framer-motion';
 import { ThemeProvider } from 'next-themes';
@@ -66,40 +67,41 @@ const CustomApp = ({ Component, pageProps }: AppProps) => {
           }}
         >
           <Head>
-            <title>Sal Anvarov - Personal Portfolio</title>
-            <meta name="title" content="Sal Anvarov" />
+            <title>Abhishek Panthee - Personal Portfolio</title>
+            <meta name="title" content="Abhishek Panthee" />
             <meta
               name="description"
-              content="Hard-working developer with a flair for creating elegant solutions to complex problems. Team player with a can-do attitude and a strong focus on client satisfaction. Diverse experience with modern technologies and cloud providers like AWS and GCP with enterprise DevOps experience. Likes to contribute to open-source and create apps on his free time."
+              content="Hard-working developer with a flair for creating elegant solutions to complex problems. "
             />
+            <SpeedInsights/>
 
             {/* <!-- Open Graph / Facebook --> */}
             <meta property="og:type" content="website" />
-            <meta property="og:url" content="https://www.sal-anvarov.com/" />
-            <meta property="og:title" content="Sal Anvarov" />
+            <meta property="og:url" content="https://abhishekpanthee.com.np/" />
+            <meta property="og:title" content="Abhishek Panthee" />
             <meta
               property="og:description"
-              content="Hard-working developer with a flair for creating elegant solutions to complex problems. Team player with a can-do attitude and a strong focus on client satisfaction. Diverse experience with modern technologies and cloud providers like AWS and GCP with enterprise DevOps experience. Likes to contribute to open-source and create apps on his free time."
+              content="Hard-working developer with a flair for creating elegant solutions to complex problems."
             />
             <meta
               property="og:image"
-              content="https://www.sal-anvarov.com/assets/3d-headshot.png"
+              content="https://www.abhishekpanthee.com.np/assets/3d-headshot.jpg"
             />
 
             {/* <!-- Twitter --> */}
             <meta property="twitter:card" content="summary_large_image" />
             <meta
               property="twitter:url"
-              content="https://www.sal-anvarov.com/"
+              content="https://twitter.com/AbhishekPanthee"
             />
-            <meta property="twitter:title" content="Sal Anvarov" />
+            <meta property="twitter:title" content="Abhishek Panthee" />
             <meta
               property="twitter:description"
-              content="Hard-working developer with a flair for creating elegant solutions to complex problems. Team player with a can-do attitude and a strong focus on client satisfaction. Diverse experience with modern technologies and cloud providers like AWS and GCP with enterprise DevOps experience. Likes to contribute to open-source and create apps on his free time."
+              content="Hard-working developer with a flair for creating elegant solutions to complex problems."
             />
             <meta
               property="twitter:image"
-              content="https://www.sal-anvarov.com/assets/3d-headshot.png"
+              content="https://www.abhishekpanthee.com.np/assets/3d-headshot.jpg"
             />
 
             <link

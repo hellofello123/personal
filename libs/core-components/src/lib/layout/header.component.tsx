@@ -8,6 +8,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { ThemeConfigurator } from '../theme-configurator.component';
 import { menu } from './menu';
+import ShiningStar from './ShiningStar';
+import ShootingStar from './ShootingStar';
 
 export const Header = () => {
   const router = useRouter();
@@ -26,10 +28,14 @@ export const Header = () => {
 
   return (
     <header className="header-area">
+      
       <div className="container">
         <div className="gx-row d-flex align-items-center justify-content-between">
+        <ShiningStar />
+      <ShootingStar />
           <Link href="/" className="logo">
             <img src="/assets/logo/logo.png" alt="Logo" />
+            
           </Link>
           <nav
             className={classNames('navbar', { active: displayMobileNavbar })}
@@ -45,14 +51,14 @@ export const Header = () => {
             </ul>
             <a
               className="theme-btn"
-              href="https://calendly.com/msalanvarov"
+              href="https://calendly.com/abhishekpanthee5"
               target="_blank"
               rel="noreferrer noopener"
             >
               <span role="img" aria-label="coffee">
                 ☕
               </span>{' '}
-              Chat with Sal
+              Chat with Abhi
             </a>
           </nav>
 
