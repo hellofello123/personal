@@ -42,7 +42,7 @@ const BioPage = () => {
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '60px', flexDirection: 'column', alignItems: 'center' }}>
           <img 
             src="/assets/thumbnails/404.jpg" 
-            alt="Descriptive alt text" 
+            alt="404 error " 
             style={{ width: '100%', maxWidth: '400px', height: 'auto', marginBottom: '20px' }} 
           />
           <AnimatedButton />

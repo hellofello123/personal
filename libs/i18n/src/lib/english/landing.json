@@ -111,7 +111,7 @@
     "heading": "Let's <br /> collaborate <span>together </span><br /> See my <span>Resume</span>",
     "media": "/assets/icons/icon2.png",
     "button": {
-      "link": "/contact",
+      "link": "/resume",
       "icon": {
         "light": "/assets/icons/icon-2.svg",
         "dark": "/assets/icons/icon.svg"
